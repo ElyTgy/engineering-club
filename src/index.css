@@ -1,4 +1,5 @@
 body {
+  background-color: rgb(24, 24, 24);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,28 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .body-text{
+      font-family: 'Zen Kurenaido', sans-serif;
+      font-size:18px;
+    }
+    .subheading-text {
+      font-family: 'Arvo', serif;
+      font-size: 22px;
+    }
+    .heading-text {
+      font-family: 'Arvo', serif;
+      font-size: 64px;
+    }
+    .title-text {
+      font-family: 'Exo 2', sans-serif;
+      font-size: 96px;
+      font-weight: bold;
+    }
 }
