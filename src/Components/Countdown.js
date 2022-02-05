@@ -5,7 +5,7 @@ function CountdownBox(props)
 {
     return(
         <span className="bg-green-400 
-                        w-12 h-12 sm:w-16 sm:h-16 md:w-24 md:h-24 lg:w-28 lg:h-28
+                        w-14 h-14 sm:w-16 sm:h-16 md:w-24 md:h-24 lg:w-28 lg:h-28
                         flex flex-col justify-center items-center align-center
                         border-2 border-red-500"
         >
