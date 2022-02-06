@@ -1,0 +1,9 @@
+#tsparticles{
+    width:100%;
+    height:95%;
+    position:absolute;
+}
+
+#tsparticles canvas{
+    position: static !important;
+}
