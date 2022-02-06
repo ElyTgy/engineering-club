@@ -1,12 +1,13 @@
 import Countdown from "./Components/Countdown"
 import TextBox from "./Components/TextBox"
 import Footer from './Components/Footer'
-
+import Navbar from './Components/Navbar'
 //fetch the time for meeting countdown from a DB. The time will be set in the DB using a discord bot
 
 export default function(props){
     return (
         <div>
+            <Navbar className="bg-green-50"/>
             <div className="bg-green-50 h-[90vh] flex items-center text-center justify-center">
                 <div className="flex flex-col items-center w-full">
                     <h1 className="title-text text-[65px] sm:title-text md:mb-4 lg:mb-10">
