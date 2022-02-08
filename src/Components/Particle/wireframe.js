@@ -16,6 +16,8 @@ const Canvas = () => {
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
+      style={{width:"50%"}}
+      canvasClassName="canvas"
       options={{
         fpsLimit: 120,
         interactivity: {
@@ -25,6 +27,9 @@ const Canvas = () => {
               mode: "repulse",
             },
             resize: true,
+          },
+          fullScreen:{
+            enable:false
           },
           modes: {
             bubble: {
