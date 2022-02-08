@@ -33,8 +33,8 @@ const Canvas = () => {
           },
           modes: {
             bubble: {
-              distance: 100,
-              duration: 100,
+              distance: 1000,
+              duration: 900,
               opacity: 0.8,
               size: 40,
             },
@@ -94,3 +94,5 @@ const Canvas = () => {
 };
 
 export default Canvas;
+
+
