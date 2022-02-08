@@ -17,3 +17,25 @@
 .custom-shape-divider-bottom-1644308813 .shape-fill {
     fill: #000;
 }
+
+.btn-hover {
+    background-clip:text;
+    color: transparent;
+    cursor: pointer;
+    margin: 10px;
+    background-size: 400% 100%;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+}

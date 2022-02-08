@@ -22,7 +22,10 @@ export default function(props){
                         </h1>
                         <div className="w-full lg:w-11/12 xl:w-3/4 flex flex-col items-center">
                             <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2022, 1, 11, 16, 30, 0]}/>
-                            <h4 className="text-black title-text text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-3 md:mt-5">until the next meeting</h4>
+                            <h4 className="text-black title-text text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 md:mt-6 tracking-wide">
+                                until the next 
+                                <span className="underline btn-hover color-1"><a href="https://example.com">meeting</a></span>
+                            </h4>
                         </div>
                     </div>
                 </div>
