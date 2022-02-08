@@ -8,7 +8,6 @@ import "./Home-svg.css"
 //Fetch the time for meeting countdown from a DB. The time will be set in the DB using a discord bot
 //Get information for online/in-preson meeting from DB, which can be updated from discord and dissplay in "until meeting"
 
-
 export default function(props){
     return (
         <div>
@@ -24,7 +23,12 @@ export default function(props){
                             <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2022, 1, 11, 16, 30, 0]}/>
                             <h4 className="text-black title-text text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 md:mt-6 tracking-wide">
                                 until the next 
-                                <span className="underline btn-hover color-1"><a href="https://example.com">meeting</a></span>
+                                <span className="underline decoration-cyan-500 decoration-underline 
+                                                bg-clip-text text-transparent bg-[length:400%_100%] bg-gradient-to-r from-[#25aae1] via-[#40e495] to-[#2bb673]
+                                                cursor-pointer ml-1
+                                                transition-all ease-in-out duration-500
+                                                hover:bg-[100%_0]">
+                                                <a href="https://example.com">meeting</a></span>
                             </h4>
                         </div>
                     </div>
