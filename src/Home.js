@@ -12,7 +12,6 @@ export default function(props){
     return (
         <div>
             <div className="relative">
-                <Navbar className="bg-white text-black"/>
                 <div className="bg-white text-black h-[95vh] flex items-center text-center justify-center">
                     {/*<Canvas/>*/}
                     <div className="flex flex-col items-center w-full">
@@ -40,10 +39,10 @@ export default function(props){
                 </div>
             </div>
             <div className="bg-black py-5">
-                <TextBox className="bg-white my-3 mb-10 border-white border-2 rounded-md" title="What Is HSS Engineering Club?">
+                <TextBox className="bg-white my-3 mb-10 border-white border-2 rounded-md" titleClass="text-cyan-500" title="What Is HSS Engineering Club?">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </TextBox>
-                <TextBox className="my-3 bg-white border-white border-2 rounded-md" title="Cool! How Can I Join?">
+                <TextBox className="my-3 bg-white border-white border-2 rounded-md" titleClass="text-cyan-500" title="Cool! How Can I Join?">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </TextBox>
             </div>
