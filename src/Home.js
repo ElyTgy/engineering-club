@@ -12,11 +12,11 @@ export default function(props){
     return (
         <div>
             <div className="relative">
-                <div className="bg-white text-black h-[95vh] flex items-center text-center justify-center">
+                <div className="bg-white text-black h-[95vh] flex items-center text-center justify-center z-50">
                     {/*<Canvas/>*/}
                     <div className="flex flex-col items-center w-full">
                         <h1 className="title-text text-[65px] sm:title-text mb-10 md:mb-16 lg:mb-20 leading-tight">
-                            <span>HSS</span><span className="block lg:inline text-blue-300"> Engineering</span><span> Club</span>
+                            <span>HSS</span><span className="block lg:inline text-teal-400"> Engineering</span><span> Club</span>
                         </h1>
                         <div className="w-full lg:w-11/12 xl:w-3/4 flex flex-col items-center">
                             <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2022, 1, 11, 16, 30, 0]}/>
