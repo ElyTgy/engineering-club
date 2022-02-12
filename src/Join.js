@@ -3,6 +3,8 @@ import TextBox from './Components/TextBox';
 import Button from "./Components/Button"
 import {FaDiscord} from 'react-icons/fa';
 import {SiMicrosoftteams} from 'react-icons/si';
+import Box from "./Components/Box";
+import Footer from './Components/Footer';
 
 export default function Join(props){
     return ( 
@@ -30,10 +32,17 @@ export default function Join(props){
                 </div>
             </div>
             <div>
-                <TextBox>Lorem</TextBox>
+                <h1 className="text-cyan-500 m-3 subheading-text">What should I do for the first meeting?</h1>
+                <Box className="bg-white my-3 mb-10 border-white border-2 rounded-md" titleClass="text-cyan-500" title="What Is HSS Engineering Club?">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </Box>
+                <Box className="my-3 bg-white border-white border-2 rounded-md" titleClass="text-cyan-500" title="Cool! How Can I Join?">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </Box>
             </div>
         </div>
     )
 }
+
 
 //bg-gradient-to-r from-green-300 via-blue-500 to-purple-600
