@@ -2,7 +2,7 @@ import Countdown from "./Components/Countdown"
 import TextBox from "./Components/TextBox"
 import Navbar from './Components/Navbar'
 import Canvas from "./Components/Particle/wireframe"
-import "./Home-svg.css"
+import "./svgs.css"
 
 //Fetch the time for meeting countdown from a DB. The time will be set in the DB using a discord bot
 //Get information for online/in-preson meeting from DB, which can be updated from discord and dissplay in "until meeting"

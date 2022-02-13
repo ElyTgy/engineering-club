@@ -1,0 +1,25 @@
+
+
+.container-arrow{
+    margin-top: -20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#000;
+    display: inline-block;
+    text-align: center;
+	line-height: 40px;
+	position: absolute;
+	bottom:0;left:0;
+	z-index: 10;
+	width:100%;
+	padding-bottom: 15px;
+	cursor: pointer;
+	font-size: 12px; 
+	}
+.container-arrow:hover,
+.container-arrow:focus{text-decoration: none;}
+
+.container-arrow span{  display: inline-block; font-size: 80px;	 animation: .7s down  infinite alternate; -webkit-animation: .7s down infinite alternate; } 
+@keyframes down{ 0%{transform:translateY(0px)} 100%{transform:translateY(20px)} } 
+@-webkit-keyframes down{ 0%{-webkit-transform:translateY(0px)} 100%{-webkit-transform:translateY(20px)} }
+		
