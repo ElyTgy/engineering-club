@@ -1,6 +1,7 @@
 import Navbar from './Components/Navbar';
 import Home from './Home';
 import Join from './Join';
+import Workshop from './Workshop';
 import Footer from './Components/Footer'
 import {Routes, Route} from "react-router-dom";
 
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/join" element={<Join/>}/>
+        <Route path="/workshop" element={<Workshop/>}/>
       </Routes>
       <Footer className="bg-blue-300 text-white"/>
     </div>
