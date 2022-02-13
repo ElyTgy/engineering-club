@@ -1,10 +1,7 @@
 import './hover.css'
-import TextBox from './Components/TextBox';
 import Button from "./Components/Button"
 import {FaDiscord} from 'react-icons/fa';
 import {SiMicrosoftteams} from 'react-icons/si';
-import Box from "./Components/Box";
-import Footer from './Components/Footer';
 import Canvas from "./Components/Particle/wireframe"
 
 export default function Join(props){
@@ -32,8 +29,8 @@ export default function Join(props){
                     </div>
                 </div>
             </div>
-            <div className="text-white">
-                <h1 className="text-cyan-500 m-8 text-center subheading-text text-3xl">What should I do for the first meeting?</h1>
+            <div className="text-white py-20 px-16">
+                <h1 className="text-cyan-500 mb-8 text-center subheading-text text-3xl">What should I do for the first meeting?</h1>
                 <ol>
                     <li class="numbered-list-item">
                         <h2 class="subheading-text">Number one</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</span>
@@ -45,6 +42,15 @@ export default function Join(props){
                         <h2 class="subheading-text">Number three</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</span>
                     </li>
                 </ol>
+            </div>
+            <div className="text-black bg-white py-20 px-16">
+                <h1 className="text-cyan-500 mb-8 text-center subheading-text text-3xl">Is the Club Online or In-Person</h1>
+                <div className="mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div className=" grid grid-cols-2 gap-10">
+                    <img className="border-sm rounded-md" src="https://source.unsplash.com/collection/483251/" alt="image of the location of Handsworth"/>
+                    <img className="border-sm rounded-md" src="https://source.unsplash.com/collection/483251/" alt="image of the school map with the workshop"/>
+                </div>
+                <img/>
             </div>
         </div>
     )
