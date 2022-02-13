@@ -40,12 +40,14 @@ code {
       display: block;
       clear: both;
       counter-increment: list;
-      padding-bottom: 4rem;
+      padding-bottom: 3rem;
       font-size: 1.1rem;
       position: relative;
-      margin: 20px;
+      margin-left: 30px;
+      margin-bottom:0px;
   }
   .numbered-list-item:before {
+      color:black;  
       font-family: 'Exo 2', sans-serif;
       font-size: 22px;
       content: counter(list);
@@ -53,7 +55,7 @@ code {
       height: 2.5rem;
       float: left;
       margin: 0 1.5rem 0.75rem 0;
-      background: #40e4c0 linear-gradient(to bottom right, #40e4c0 25%,#2bb673);
+      background: #40e4c0 linear-gradient(to bottom right, #40e4c0 20%,#2b9fb6);
       text-shadow: 0 0 2px #40e4c0;
       border-radius: 50%;
       display: inline-flex;
@@ -62,16 +64,15 @@ code {
       shape-outside: ellipse();
       z-index: 1;
   }
-  .numbered-list-item:after {
-      width: 1rem;
-      height: 1rem;
+  /*.numbered-list-item:after {
+      width: 1.4rem;
+      height: 1.4rem;
       position: absolute;
       top: 0;
       left: 0;
       content: "";
       background: #40e4c0;
       z-index: -1;
-      border-top-left-radius: 80px 80px;
-  }
+  }*/
 }
 

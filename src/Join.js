@@ -5,11 +5,12 @@ import {FaDiscord} from 'react-icons/fa';
 import {SiMicrosoftteams} from 'react-icons/si';
 import Box from "./Components/Box";
 import Footer from './Components/Footer';
+import Canvas from "./Components/Particle/wireframe"
 
 export default function Join(props){
     return ( 
         <div>
-            <div className="bg-white text-black h-[95vh] flex items-center text-center justify-center">
+            <div className="bg-white text-black h-[90vh] flex items-center text-center justify-center">
                 {/*<Canvas/>*/}
                 <div className="flex flex-col items-center w-full">
                     <h1 className="hover before:bg-teal-300 title-text text-[65px] sm:title-text mb-10 md:mb-16 lg:mb-20 leading-tight">
@@ -31,17 +32,17 @@ export default function Join(props){
                     </div>
                 </div>
             </div>
-            <div className="text-black bg-white">
-                <h1 className="text-cyan-500 m-3 subheading-text">What should I do for the first meeting?</h1>
-                <ol class="list">
+            <div className="text-white">
+                <h1 className="text-cyan-500 m-8 text-center subheading-text text-3xl">What should I do for the first meeting?</h1>
+                <ol>
                     <li class="numbered-list-item">
-                        <h2 class="headline">Number one</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</span>
+                        <h2 class="subheading-text">Number one</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</span>
                     </li>
                     <li class="numbered-list-item">
-                        <h2 class="headline">Number two</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</span>
+                        <h2 class="subheading-text">Number two</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</span>
                     </li>
                     <li class="numbered-list-item">
-                        <h2 class="headline">Number three</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</span>
+                        <h2 class="subheading-text">Number three</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</span>
                     </li>
                 </ol>
             </div>
