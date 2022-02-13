@@ -1,6 +1,7 @@
 import Navbar from './Components/Navbar';
 import Home from './Home';
 import Join from './Join';
+import Footer from './Components/Footer'
 import {Routes, Route} from "react-router-dom";
 
 function App() {

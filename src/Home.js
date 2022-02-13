@@ -1,6 +1,5 @@
 import Countdown from "./Components/Countdown"
 import TextBox from "./Components/TextBox"
-import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
 import Canvas from "./Components/Particle/wireframe"
 import "./Home-svg.css"

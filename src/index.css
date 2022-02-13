@@ -35,4 +35,43 @@ code {
       font-size: 96px;
       font-weight: bold;
     }
+
+   .numbered-list-item {
+      display: block;
+      clear: both;
+      counter-increment: list;
+      padding-bottom: 4rem;
+      font-size: 1.1rem;
+      position: relative;
+      margin: 20px;
+  }
+  .numbered-list-item:before {
+      font-family: 'Exo 2', sans-serif;
+      font-size: 22px;
+      content: counter(list);
+      width: 2.5rem;
+      height: 2.5rem;
+      float: left;
+      margin: 0 1.5rem 0.75rem 0;
+      background: #40e4c0 linear-gradient(to bottom right, #40e4c0 25%,#2bb673);
+      text-shadow: 0 0 2px #40e4c0;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      shape-outside: ellipse();
+      z-index: 1;
+  }
+  .numbered-list-item:after {
+      width: 1rem;
+      height: 1rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      background: #40e4c0;
+      z-index: -1;
+      border-top-left-radius: 80px 80px;
+  }
 }
+
