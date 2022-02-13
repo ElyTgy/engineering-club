@@ -1,5 +1,5 @@
 import './hover.css'
-import Button from "./Components/Button"
+import Button1 from "./Components/Button1"
 import {FaDiscord} from 'react-icons/fa';
 import {SiMicrosoftteams} from 'react-icons/si';
 import Canvas from "./Components/Particle/wireframe"
@@ -17,18 +17,8 @@ export default function Join(props){
                             Join the Club!
                         </h1>
                         <div className="flex flex-col md:flex-row justify-center">
-                            <Button gradient1="green-300" gradient2="blue-500" gradient="green-300"
-                                    className="flex flex-row text-center items-center
-                                                lg:w-52 lg:h-14">
-                                <a href="https://example.com"><FaDiscord className="w-6 h-6 mx-3"/></a>
-                                <span>Join on Discord</span>
-                            </Button> 
-                            <Button gradient1="green-300" gradient2="blue-500" gradient="green-300"
-                                    className="flex flex-row text-center items-center
-                                                lg:w-52 lg:h-14">
-                                <a href="https://exmaple.com"><SiMicrosoftteams className="w-6 h-6 mx-3"/></a>    
-                                <span>Join on Teams</span>
-                            </Button> 
+                            <Button1 text="Join on Discord" href="https://example.com" icon={<FaDiscord className="w-6 h-6 mx-3"/>}/>
+                            <Button1 text="Join on Teams" href="https://example.com" icon={<SiMicrosoftteams className="w-6 h-6 mx-3"/>}/>
                         </div>
                     </div>
                 <div class="custom-shape-divider-bottom-1644785508">
