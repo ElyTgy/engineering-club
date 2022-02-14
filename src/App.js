@@ -3,6 +3,7 @@ import Home from './Home';
 import Join from './Join';
 import Workshop from './Workshop';
 import Footer from './Components/Footer'
+import Contact from "./Contact"
 import {Routes, Route} from "react-router-dom";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/join" element={<Join/>}/>
         <Route path="/workshop" element={<Workshop/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
       <Footer className="bg-blue-300 text-white"/>
     </div>
