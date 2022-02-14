@@ -21,8 +21,7 @@ export default function(props){
                             <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2022, 1, 11, 16, 30, 0]}/>
                             <h4 className="text-black title-text text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 md:mt-6 tracking-wide">
                                 until the next 
-                                <span className="link">
-                                                <a href="https://example.com"> meeting</a></span>
+                                <span className=""> meeting</span>
                             </h4>
                         </div>
                     </div>
