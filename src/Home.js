@@ -15,13 +15,13 @@ export default function(props){
                     {/*<Canvas/>*/}
                     <div className="flex flex-col items-center w-full">
                         <h1 className="title-text text-[65px] sm:title-text mb-10 md:mb-16 lg:mb-20 leading-tight">
-                            <span>HSS</span><span className="block lg:inline text-teal-400"> Engineering</span><span> Club</span>
+                            <span>HSS</span><span className="dynamic-gradient bg-clip-text text-transparent"> Engineering</span><span> Club</span>
                         </h1>
                         <div className="w-full lg:w-11/12 xl:w-3/4 flex flex-col items-center">
                             <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2022, 1, 11, 16, 30, 0]}/>
                             <h4 className="text-black title-text text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 md:mt-6 tracking-wide">
                                 until the next 
-                                <span className="">
+                                <span className="link">
                                                 <a href="https://example.com"> meeting</a></span>
                             </h4>
                         </div>

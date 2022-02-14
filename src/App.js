@@ -6,6 +6,8 @@ import Footer from './Components/Footer'
 import Contact from "./Contact"
 import {Routes, Route} from "react-router-dom";
 
+//TODO: make join, workshop, and contact page responsive
+
 function App() {
   return (
     <div className="overflow-x-hidden selection:bg-blue-200 selection:text-blue-500">

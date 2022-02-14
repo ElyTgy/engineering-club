@@ -86,6 +86,25 @@ code {
 
   .link:hover{background-position: 100% 0;}
   
+  .dynamic-gradient {
+    background: linear-gradient(-45deg, #39d47a, #39d4a6, #2b4bb6, #39ced4, #439fd1, #2bb673);
+    background-size: 400% 400%;
+    animation: dgradient 8s ease infinite;
+    height: 100vh;
+  }
+
+  @keyframes dgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
   /*.numbered-list-item:after {
       width: 1.4rem;
       height: 1.4rem;
