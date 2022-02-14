@@ -21,12 +21,8 @@ export default function(props){
                             <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2022, 1, 11, 16, 30, 0]}/>
                             <h4 className="text-black title-text text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 md:mt-6 tracking-wide">
                                 until the next 
-                                <span className="underline decoration-cyan-500 decoration-underline 
-                                                bg-clip-text text-transparent bg-[length:400%_100%] bg-gradient-to-r from-[#25aae1] via-[#40e495] to-[#2bb673]
-                                                cursor-pointer ml-1
-                                                transition-all ease-in-out duration-500
-                                                hover:bg-[100%_0]">
-                                                <a href="https://example.com">meeting</a></span>
+                                <span className="">
+                                                <a href="https://example.com"> meeting</a></span>
                             </h4>
                         </div>
                     </div>

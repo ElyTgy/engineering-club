@@ -68,6 +68,24 @@ code {
       shape-outside: ellipse();
       z-index: 1;
   }
+
+  .link {
+    text-decoration:underline;
+    color: #fff;
+    cursor: pointer;
+    text-align:center;
+    background-size: 300% 100%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #25aae1, #40e495, #2bb673);
+    color: rgba(0,0,0,0);
+    background-clip: text
+  }
+
+  .link:hover{background-position: 100% 0;}
+  
   /*.numbered-list-item:after {
       width: 1.4rem;
       height: 1.4rem;
@@ -80,3 +98,9 @@ code {
   }*/
 }
 
+/*
+underline decoration-cyan-500 decoration-underline 
+                                                bg-clip-text text-transparent bg-[length:400%_100%] bg-gradient-to-r from-[#25aae1] via-[#40e495] to-[#2bb673]
+                                                cursor-pointer ml-1
+                                                transition-all ease-in-out duration-500
+                                                hover:bg-[100%_0]*/

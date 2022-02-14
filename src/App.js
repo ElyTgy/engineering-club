@@ -16,7 +16,7 @@ function App() {
         <Route path="/workshop" element={<Workshop/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
-      <Footer className="bg-blue-300 text-white"/>
+      <Footer className="bg-cyan-400 text-white"/>
     </div>
   );
 }

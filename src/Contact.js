@@ -44,11 +44,12 @@ export default function Contact(props){
         
         <div>
             <h1 className="mt-10 subheading-text text-left text-2xl mb-8 text-cyan-600">Got a Question?</h1>
-            <form action="https://formspree.io/f/xgedkvnn"
-                    method="POST">
+            <form action="https://example.com"
+                    method="GET">
                 <div className="grid-cols-2 grid">
                     <div className="flex flex-col w-10/12">
-                        <input className="mb-3 border-2 p-2 rounded-md focus:outline-none focus:border-slate-600" type="text" name="firstname" placeholder="first name" required/>
+                        <input className="mb-3 border-2 p-2 rounded-md 
+                                        focus:outline-none focus:border-slate-600" type="text" name="firstname" placeholder="first name" required/>
                         <input className="mb-3 border-2 p-2 rounded-md focus:outline-none focus:border-slate-600" type="text" name="lastname" placeholder="last name" required/>
                         <input className="mb-3 border-2 p-2 rounded-md focus:outline-none focus:border-slate-600" type="email" name="email" placeholder="email" required/>
                     </div>
@@ -59,3 +60,4 @@ export default function Contact(props){
         </div>
     </div>)
 }
+//action="https://formspree.io/f/xgedkvnn"
