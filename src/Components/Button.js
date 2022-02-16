@@ -2,7 +2,7 @@ export default function Button(props){
     return(
         <button className={`
             subheading-text text-white cursor-pointer text-center 
-            w-48 h-12 m-6 drop-shadow-md
+            w-36 sm:w-48 h-12 m-6 drop-shadow-md
             border-none rounded-2xl
             bg-[length:250%_100%] 
             transition-all ease-in-out duration-500
