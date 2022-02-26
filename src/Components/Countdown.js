@@ -18,7 +18,7 @@ function CountdownBox(props)
 export default function Countdown(props){
     let date = new Date(Date.now());
     const [timeLeft, setTimeLeft] = useState([date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds()])
-    const [currentTime, setCurrentTime] = useState([2022, 0, 5, 14, 49, 50])
+    const [currentTime, setCurrentTime] = useState([date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds()])
     
     useEffect(()=>{
         const interval = setInterval(()=>{
