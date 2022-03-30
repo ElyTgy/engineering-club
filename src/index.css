@@ -71,17 +71,13 @@ code {
 
   .link {
     text-decoration:underline;
-    color: #fff;
     cursor: pointer;
     text-align:center;
     background-size: 300% 100%;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+    background-clip: text;
     background-image: linear-gradient(to right, #25aae1, #40e495, #2bb673);
-    color: rgba(0,0,0,0);
-    background-clip: text
+    color:rgba(0,0,0,0)
   }
 
   .link:hover{background-position: 100% 0;}

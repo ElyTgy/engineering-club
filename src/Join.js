@@ -17,7 +17,7 @@ export default function Join(props){
                             Join the Club!
                         </h1>
                         <div className="flex flex-col md:flex-row justify-center">
-                            <Button1 text="Join on Discord" href="https://example.com" icon={<FaDiscord className="w-6 h-6 mx-3"/>}/>
+                            <Button1 text="Join on Discord" href="https://discord.gg/SPtN2T7q" icon={<FaDiscord className="w-6 h-6 mx-3"/>}/>
                             <Button1 text="Join on Teams" href="https://example.com" icon={<SiMicrosoftteams className="w-6 h-6 mx-3"/>}/>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ export default function Join(props){
                 </ol>
             </div>
             <div id="is-the-club-online-or-in-person" className="text-black bg-white py-14 px-4 sm:py-16 sm:px-12 md:py-20 md:px-16">
-                <h1 className="text-cyan-500 mb-8 text-center subheading-text text-xl sm:text-2xl md:text-3xll">Is the Club Online or In-Person</h1>
+                <h1 className="text-cyan-500 mb-8 text-center subheading-text text-xl sm:text-2xl md:text-3xll">Is the Club Online or In-Person?</h1>
                 <div className="mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                 <div className=" grid grid-cols-2 gap-10">
                     <img className="border-sm rounded-md" src="https://source.unsplash.com/collection/483251/" alt="image of the location of Handsworth"/>
