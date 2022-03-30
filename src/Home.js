@@ -34,10 +34,10 @@ export default function(props){
             </div>
             <div className="bg-black py-5">
                 <TextBox className="bg-white my-3 mb-10 border-white border-2 rounded-md mt-30" titleClass="text-cyan-500" title="What Is HSS Engineering Club?">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    HSS Engineering Club is Handsworth Secondary's engineering club! The club is held weekly, in the <span className="text-cyan-700">robotics lab (room 1117), after school</span>. We make use of the equipment in the lab to work on awesome projects and collaborate with one another. You are free to make use of the space to work on whatever project you have on mind, or help others with their projects. Occasoinally, we particapte in various engineering competitions, so by being a part of our club you would also have the opportunity to take part in them. <span className="text-cyan-700">No experince</span> is neccessary for joining the club, you will learn all the skills you need during the club meetings.
                 </TextBox>
                 <TextBox className="my-3 bg-white border-white border-2 rounded-md" titleClass="text-cyan-500" title="Cool! How Can I Join?">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    You can check out <a className="underline text-cyan-700" href="/join">this page</a> for more info on how to join and the procedures on how to prepare for your first meeting. Also, make sure you join our <span href="https://discord.gg/NcSTWvrNrE" className="underline text-cyan-700">discord</span> to not miss any updates. Can't wait to see you at the next meeting!
                 </TextBox>
             </div>
         </div>
