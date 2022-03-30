@@ -20,8 +20,7 @@ export default function(props){
                         <div className="w-full lg:w-11/12 xl:w-3/4 flex flex-col items-center">
                             <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2022, 3, 8, 15, 15, 0]}/>
                             <h4 className="text-black title-text text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 md:mt-6 tracking-wide">
-                                until the next 
-                                <span className=""> meeting</span>
+                                until the next meeting on <span className="dynamic-gradient bg-clip-text text-transparent">April 8th, at 15:15</span>
                             </h4>
                         </div>
                     </div>
