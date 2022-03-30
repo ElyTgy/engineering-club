@@ -23,20 +23,23 @@ code {
 
 @layer components {
     .body-text{
+      @apply text-[18px] sm:text-[22px];
       font-family: 'Zen Kurenaido', sans-serif;
-      font-size:18px;
+    }
+    .body-text-2 {
+      @apply text-[16px] sm:text-[20px];
     }
     .subheading-text {
+      @apply text-[20px] sm:text-[26px];
       font-family: 'Arvo', serif;
-      font-size: 22px;
     }
     .heading-text {
+      @apply text-[42px] sm:text-[64px];
       font-family: 'Arvo', serif;
-      font-size: 64px;
     }
     .title-text {
+      @apply text-[72px] sm:text-[96px];
       font-family: 'Exo 2', sans-serif;
-      font-size: 96px;
       font-weight: bold;
     }
 

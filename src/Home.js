@@ -20,7 +20,8 @@ export default function(props){
                         <div className="w-full lg:w-11/12 xl:w-3/4 flex flex-col items-center">
                             <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2022, 3, 8, 15, 15, 0]}/>
                             <h4 className="text-black title-text text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 md:mt-6 tracking-wide">
-                                until the next meeting on <span className="dynamic-gradient bg-clip-text text-transparent">April 8th, at 15:15</span>
+                                until the next meeting on 
+                                <div><span className="text-cyan-600">April 8th, at 15:15</span></div> 
                             </h4>
                         </div>
                     </div>
@@ -32,7 +33,7 @@ export default function(props){
                 </div>
             </div>
             <div className="bg-black py-5">
-                <TextBox className="bg-white my-3 mb-10 border-white border-2 rounded-md" titleClass="text-cyan-500" title="What Is HSS Engineering Club?">
+                <TextBox className="bg-white my-3 mb-10 border-white border-2 rounded-md mt-30" titleClass="text-cyan-500" title="What Is HSS Engineering Club?">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </TextBox>
                 <TextBox className="my-3 bg-white border-white border-2 rounded-md" titleClass="text-cyan-500" title="Cool! How Can I Join?">
