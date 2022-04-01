@@ -33,22 +33,22 @@ export default function Join(props){
                 <h1 className="text-cyan-500 mb-8 text-center subheading-text text-xl sm:text-2xl md:text-3xl">What should I do for the first meeting?</h1>
                 <ol className="m-auto max-w-5xl">
                     <li class="numbered-list-item">
-                        <h2 class="subheading-text">Number one</h2>
-                        <p className="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</p>
+                        <h2 class="subheading-text">Join Discord or Teams</h2>
+                        <p className="body-text">The first step is to <a href="" className="text-cyan-500 underline">join our Discord server</a>! Disocrd is the main platform we use for communication and the community interacts over there. Those who don't have access to Discord can also join us Teams, where we only annouce major updates or deadlines. After joining the Discord introduce yourself and check out some of the channels.</p>
                     </li>
                     <li class="numbered-list-item">
-                        <h2 class="subheading-text">Number two</h2>
-                        <p className="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</p>
+                        <h2 class="subheading-text">Come to Your First Meeting</h2>
+                        <p className="body-text">Meetings are <i>usually</i> held every <span className="text-cyan-500">Friday after school for 1 - 2 hours in room 1117</span>. However, these times are <span className="text-cyan-500">subject to change</span>. Make sure to always check our <a href="/" className="underline text-cyan-500">website's home page</a> for information about the next meetings</p>
                     </li>
                     <li class="numbered-list-item">
-                        <h2 class="subheading-text">Number three</h2>
+                        <h2 class="subheading-text">Take the Safety Quiz (if you want)</h2>
                         <p className="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</p>
                     </li>
                 </ol>
             </div>
             <div id="is-the-club-online-or-in-person" className="text-black bg-white py-14 px-4 sm:py-16 sm:px-12 md:py-20 md:px-16">
                 <h1 className="text-cyan-500 mb-8 text-center subheading-text text-xl sm:text-2xl md:text-3xll">Is the Club Online or In-Person?</h1>
-                <div className="mb-10 body-text-2 px-6 max-w-5xl m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div className="mb-10 body-text-2 px-6 max-w-5xl m-auto">The club is held in-perso</div>
                 <div className=" grid grid-rows-2 sm:grid-cols-2 sm:grid-rows-none gap-10">
                     <img className="border-sm rounded-md" src="https://source.unsplash.com/collection/483251/" alt="image of the location of Handsworth"/>
                     <img className="border-sm rounded-md" src="https://source.unsplash.com/collection/483251/" alt="image of the school map with the workshop"/>
