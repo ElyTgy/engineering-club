@@ -42,13 +42,13 @@ export default function Join(props){
                     </li>
                     <li class="numbered-list-item">
                         <h2 class="subheading-text">Take the Safety Quiz (if you want)</h2>
-                        <p className="body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</p>
+                        <p className="body-text">In order to use any of the equipments at the lab, you should take a safety quiz, so that we can ensure nothing happens while you use the equipments. You could either take the quiz on the first meeting, or at later meetings. Not taking a saefty quiz is also an option, but in that case you won't be able to use any equipments and have to ask the club leaders to run the equipments for you.</p>
                     </li>
                 </ol>
             </div>
             <div id="is-the-club-online-or-in-person" className="text-black bg-white py-14 px-4 sm:py-16 sm:px-12 md:py-20 md:px-16">
                 <h1 className="text-cyan-500 mb-8 text-center subheading-text text-xl sm:text-2xl md:text-3xll">Is the Club Online or In-Person?</h1>
-                <div className="mb-10 body-text-2 px-6 max-w-5xl m-auto">The club is held in-perso</div>
+                <div className="mb-10 body-text-2 px-6 max-w-5xl m-auto">The club is held in-person on most days, but we might sometimes hold extra meetings on other days that won't need the equipment at the lab; in which case the meeting will be online (although this happens very rarely). Other than that, some activites such as game nights will be held online on Discord.</div>
                 <div className=" grid grid-rows-2 sm:grid-cols-2 sm:grid-rows-none gap-10">
                     <img className="border-sm rounded-md" src="https://source.unsplash.com/collection/483251/" alt="image of the location of Handsworth"/>
                     <img className="border-sm rounded-md" src="https://source.unsplash.com/collection/483251/" alt="image of the school map with the workshop"/>
