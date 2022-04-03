@@ -5,6 +5,7 @@ import {SiMicrosoftteams} from 'react-icons/si';
 import Canvas from "./Components/Particle/wireframe"
 import "./svgs.css"
 import Arrow from "./Components/ScrollDownArrow"
+import SchoolMap from "./images/map.png";
 
 export default function Join(props){
     return ( 
@@ -38,22 +39,28 @@ export default function Join(props){
                     </li>
                     <li class="numbered-list-item">
                         <h2 class="subheading-text">Come to Your First Meeting</h2>
-                        <p className="body-text">Meetings are <i>usually</i> held every <span className="text-cyan-500">Friday after school for 1 - 2 hours in room 1117</span>. However, these times are <span className="text-cyan-500">subject to change</span>. Make sure to always check our <a href="/" className="underline text-cyan-500">website's home page</a> for information about the next meetings</p>
+                        <p className="body-text">Meetings are <i>usually</i> held every <span className="text-cyan-500">Friday at lunch in room 1117</span>. However, these times are <span className="text-cyan-500">subject to change</span> and sometimes club meetings are after school. Make sure to always check our <a href="/" className="underline text-cyan-500">website's home page</a> for information about the next meetings</p>
                     </li>
                     <li class="numbered-list-item">
                         <h2 class="subheading-text">Take the Safety Quiz (if you want)</h2>
-                        <p className="body-text">In order to use any of the equipments at the lab, you should take a safety quiz, so that we can ensure nothing happens while you use the equipments. You could either take the quiz on the first meeting, or at later meetings. Not taking a saefty quiz is also an option, but in that case you won't be able to use any equipments and have to ask the club leaders to run the equipments for you.</p>
+                        <p className="body-text">In order to use any of the equipments at the lab, you should take a safety quiz, so that we can <span className="text-cyan-500">ensure nothing happens while you use the equipments</span>. You could either take the quiz on the first meeting, or at later meetings. <span className="text-cyan-500">Not taking a saefty quiz is also an option</span>, but in that case you won't be able to use any equipments and have to <span className="text-cyan-500">ask the club leaders to run the equipments for you.</span></p>
                     </li>
                 </ol>
             </div>
             <div id="is-the-club-online-or-in-person" className="text-black bg-white py-14 px-4 sm:py-16 sm:px-12 md:py-20 md:px-16">
                 <h1 className="text-cyan-500 mb-8 text-center subheading-text text-xl sm:text-2xl md:text-3xll">Is the Club Online or In-Person?</h1>
-                <div className="mb-10 body-text-2 px-6 max-w-5xl m-auto">The club is held in-person on most days, but we might sometimes hold extra meetings on other days that won't need the equipment at the lab; in which case the meeting will be online (although this happens very rarely). Other than that, some activites such as game nights will be held online on Discord.</div>
-                <div className=" grid grid-rows-2 sm:grid-cols-2 sm:grid-rows-none gap-10">
-                    <img className="border-sm rounded-md" src="https://source.unsplash.com/collection/483251/" alt="image of the location of Handsworth"/>
-                    <img className="border-sm rounded-md" src="https://source.unsplash.com/collection/483251/" alt="image of the school map with the workshop"/>
+                <div className="mb-10 body-text-2 px-6 m-auto max-w-5xl">The club is held <span className="text-cyan-600">in-person</span> on most days, but we might sometimes hold extra meetings on other days that won't need the equipment at the lab; in which case the meeting will be online (although this happens very rarely). In addition, some activites such as game nights will be held online on Discord.</div>
+                <div className="mb-10 body-text-2 px-6 m-auto max-w-5xl">If you want to join the club and you do not attend Handsworth, please <span className="underline text-cyan-600">contact us</span> and we might be able to accomodate something for you. For the location of the club, refer to the diagrams below.</div>
+                <div className=" grid grid-rows-2 sm:grid-rows-none gap-16 max-w-9xl m-auto">
+                    <figure className="m-auto">
+                        <img className="border-sm rounded-md" src={SchoolMap} alt="image of the school map with the workshop"/>
+                        <figcaption className="body-text">Location of the club is circled on the map</figcaption>
+                    </figure>
+                    <figure>
+                        <iframe src="https://maps.google.com/maps?q=1033%20Handsworth%20Rd,%20North%20Vancouver&t=&z=13&ie=UTF8&iwloc=&output=embed" alt="location of handsworth"/>
+                        <figcaption className="body-text">Location of Handsworth</figcaption>
+                    </figure>
                 </div>
-                <img/>
             </div>
         </div>
     )

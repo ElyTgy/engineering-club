@@ -5,7 +5,7 @@ import {SiContactlesspayment, SiMicrosoftteams} from 'react-icons/si';
 export default function LeaderDesc(props){
     console.log(props.buttons)
     return(
-        <div className={`mb-10 ${props.className ? props.className : ""}`}>
+        <div className={`mb-10 m-auto ${props.className ? props.className : ""}`}>
             <h2 className="subheading-text text-cyan-600 mb-3">{`${props.name} (${props.role})`}</h2>
             <p className="body-text-2">{props.children}</p>
             <div className="flex flex-row space-between justify-around mt-5 title-text text-base">

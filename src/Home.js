@@ -18,10 +18,10 @@ export default function(props){
                             <span>HSS</span><span className="dynamic-gradient bg-clip-text text-transparent"> Engineering</span><span> Club</span>
                         </h1>
                         <div className="w-full lg:w-11/12 xl:w-3/4 flex flex-col items-center">
-                            <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2022, 3, 8, 15, 15, 0]}/>
+                            <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2022, 3, 8, 11, 40, 0]}/>
                             <h4 className="text-black title-text text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 md:mt-6 tracking-wide">
                                 until the next meeting on 
-                                <div><span className="text-cyan-600">April 8th, in room 1117</span></div> 
+                                <div><span className="text-cyan-600">April 8th, in room 1117 at 11:40am</span></div> 
                             </h4>
                         </div>
                     </div>
@@ -34,10 +34,10 @@ export default function(props){
             </div>
             <div className="bg-black py-5">
                 <TextBox className="bg-white my-3 mb-10 border-white border-2 rounded-md mt-30" titleClass="text-cyan-500" title="What Is HSS Engineering Club?">
-                    HSS Engineering Club is Handsworth Secondary's engineering club! The club is held weekly, in the <span className="text-cyan-700">robotics lab (room 1117), after school</span>. We make use of the equipment in the lab to work on awesome projects and collaborate with one another. You are free to make use of the space to work on whatever project you have on mind, or help others with their projects. Occasoinally, we particapte in various engineering competitions, so by being a part of our club you would also have the opportunity to take part in them. <span className="text-cyan-700">No experince</span> is neccessary for joining the club, you will learn all the skills you need during the club meetings.
+                    HSS Engineering Club is Handsworth Secondary's engineering club! The club is held every Friday, in the <span className="text-cyan-600">robotics lab (room 1117), after school</span>. We make use of the equipment in the lab to work on awesome projects and collaborate with one another. You are free to make use of the space to work on whatever project you have on mind, or help others with their projects. Occasoinally, we particapte in various engineering competitions, so by being a part of our club you would also have the opportunity to take part in them. <span className="text-cyan-600">No experince</span> is neccessary for joining the club, you will learn all the skills you need during the club meetings.
                 </TextBox>
                 <TextBox className="my-3 bg-white border-white border-2 rounded-md" titleClass="text-cyan-500" title="Cool! How Can I Join?">
-                    You can check out <a className="underline text-cyan-700" href="/join">this page</a> for more info on how to join and the procedures on how to prepare for your first meeting. Also, make sure you join our <a href="https://discord.gg/NcSTWvrNrE" className="underline text-cyan-700">discord</a> to not miss any updates. Can't wait to see you at the next meeting!
+                    You can check out <a className="underline text-cyan-600" href="/join/#what-should-i-do-for-the-first-meeting">here</a> for more info on how to join and the procedures on how to prepare for your first meeting. Also, make sure you join our <a href="https://discord.gg/NcSTWvrNrE" className="underline text-cyan-600">discord</a> to not miss any updates. Can't wait to see you at the next meeting!
                 </TextBox>
             </div>
         </div>
