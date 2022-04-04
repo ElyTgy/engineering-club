@@ -30,12 +30,12 @@ export default function Join(props){
                     <Arrow href="#what-should-i-do-for-the-first-meeting"/>
                 </div>
             </div>
-            <div id="what-should-i-do-for-the-first-meeting" className="text-white py-14 px-4 sm:py-16 sm:px-12 md:py-20 md:px-16">
+            <div id="what-should-i-do-for-the-first-meeting" className="text-white bg-[#181818] py-14 px-4 sm:py-16 sm:px-12 md:py-20 md:px-16">
                 <h1 className="text-cyan-500 mb-8 text-center subheading-text text-xl sm:text-2xl md:text-3xl">What should I do for the first meeting?</h1>
                 <ol className="m-auto max-w-5xl">
                     <li class="numbered-list-item">
                         <h2 class="subheading-text">Join Discord or Teams</h2>
-                        <p className="body-text">The first step is to <a href="" className="text-cyan-500 underline">join our Discord server</a>! Disocrd is the main platform we use for communication and the community interacts over there. Those who don't have access to Discord can also join us Teams, where we only annouce major updates or deadlines. After joining the Discord introduce yourself and check out some of the channels.</p>
+                        <p className="body-text">The first step is to <a href="https://discord.gg/NcSTWvrNrE" className="text-cyan-500 underline">join our Discord server</a>! Disocrd is the main platform we use for communication and the community interacts over there. Those who don't have access to Discord can also join us Teams, where we only annouce major updates or deadlines. After joining the Discord introduce yourself and check out some of the channels.</p>
                     </li>
                     <li class="numbered-list-item">
                         <h2 class="subheading-text">Come to Your First Meeting</h2>
@@ -49,9 +49,9 @@ export default function Join(props){
             </div>
             <div id="is-the-club-online-or-in-person" className="text-black bg-white py-14 px-4 sm:py-16 sm:px-12 md:py-20 md:px-16">
                 <h1 className="text-cyan-500 mb-8 text-center subheading-text text-xl sm:text-2xl md:text-3xll">Is the Club Online or In-Person?</h1>
-                <div className="mb-10 body-text-2 px-6 m-auto max-w-5xl">The club is held <span className="text-cyan-600">in-person</span> on most days, but we might sometimes hold extra meetings on other days that won't need the equipment at the lab; in which case the meeting will be online (although this happens very rarely). In addition, some activites such as game nights will be held online on Discord.</div>
-                <div className="mb-10 body-text-2 px-6 m-auto max-w-5xl">If you want to join the club and you do not attend Handsworth, please <a className="underline text-cyan-600" href="/contact">contact us</a> and we might be able to accomodate something for you. For the location of the club, refer to the diagrams below.</div>
-                <div className=" grid grid-rows-2 sm:grid-rows-none gap-24 max-w-6xl m-auto">
+                <div className="mb-10 body-text px-6 m-auto max-w-5xl">The club is held <span className="text-cyan-600">in-person</span> on most days, but we might sometimes hold extra meetings on other days that won't need the equipment at the lab; in which case the meeting will be online (although this happens very rarely). In addition, some activites such as game nights will be held online on Discord.</div>
+                <div className="mb-10 body-text px-6 m-auto max-w-5xl">If you want to join the club and you do not attend Handsworth, please <a className="underline text-cyan-600" href="/contact">contact us</a> and we might be able to accomodate something for you. For the location of the club, refer to the diagrams below.</div>
+                <div className=" grid grid-rows-2 sm:grid-rows-none gap-8 sm:gap-24 max-w-6xl m-auto">
                     <figure className="m-auto">
                         <img className="border-sm rounded-md" src={SchoolMap} alt="image of the school map with the workshop"/>
                         <figcaption className="body-text">Location of the club is circled on the map</figcaption>
