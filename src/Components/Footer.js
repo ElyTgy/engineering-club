@@ -18,7 +18,7 @@ export default function Footer(props)
                                                                                               /></a>
                 {/*<a href="https://example.com"><FaInstagram className="w-6 h-6 mx-2"/></a>
                 <a href="https://example.com"><FaYoutube className="w-6 h-6 mx-2"/></a>*/}
-                <a href="/"><SiMicrosoftteams className="w-6 h-6 mr-2 
+                <a href="#"><SiMicrosoftteams className="w-6 h-6 mr-2 
                                                          md:w-8 md:h-8 md:mr-4"/></a>
             </div>
         </div>

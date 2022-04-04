@@ -15,11 +15,11 @@ export default function Join(props){
                     {/*<Canvas/>*/}
                     <div className="flex flex-col items-center w-full">
                         <h1 className="hover before:bg-teal-300 title-text mb-10 md:mb-16 lg:mb-20 leading-tight">
-                            Join the Club!
+                            Join the <span className="block sm:inline">Club</span>
                         </h1>
                         <div className="flex flex-col md:flex-row justify-center">
-                            <Button1 text="Join on Discord" href="https://discord.gg/SPtN2T7q" icon={<FaDiscord className="w-6 h-6 mx-3"/>}/>
-                            <Button1 text="Join on Teams" href="https://example.com" icon={<SiMicrosoftteams className="w-6 h-6 mx-3"/>}/>
+                            <Button1 text="Join on Discord" href="https://discord.gg/NcSTWvrNrE" icon={<FaDiscord className="w-6 h-6 mx-3"/>}/>
+                            <Button1 text="Join on Teams" href="#" icon={<SiMicrosoftteams className="w-6 h-6 mx-3"/>}/>
                         </div>
                     </div>
                     <div class="custom-shape-divider-bottom-1644785508">
@@ -50,14 +50,15 @@ export default function Join(props){
             <div id="is-the-club-online-or-in-person" className="text-black bg-white py-14 px-4 sm:py-16 sm:px-12 md:py-20 md:px-16">
                 <h1 className="text-cyan-500 mb-8 text-center subheading-text text-xl sm:text-2xl md:text-3xll">Is the Club Online or In-Person?</h1>
                 <div className="mb-10 body-text-2 px-6 m-auto max-w-5xl">The club is held <span className="text-cyan-600">in-person</span> on most days, but we might sometimes hold extra meetings on other days that won't need the equipment at the lab; in which case the meeting will be online (although this happens very rarely). In addition, some activites such as game nights will be held online on Discord.</div>
-                <div className="mb-10 body-text-2 px-6 m-auto max-w-5xl">If you want to join the club and you do not attend Handsworth, please <span className="underline text-cyan-600">contact us</span> and we might be able to accomodate something for you. For the location of the club, refer to the diagrams below.</div>
-                <div className=" grid grid-rows-2 sm:grid-rows-none gap-16 max-w-9xl m-auto">
+                <div className="mb-10 body-text-2 px-6 m-auto max-w-5xl">If you want to join the club and you do not attend Handsworth, please <a className="underline text-cyan-600" href="/contact">contact us</a> and we might be able to accomodate something for you. For the location of the club, refer to the diagrams below.</div>
+                <div className=" grid grid-rows-2 sm:grid-rows-none gap-24 max-w-6xl m-auto">
                     <figure className="m-auto">
                         <img className="border-sm rounded-md" src={SchoolMap} alt="image of the school map with the workshop"/>
                         <figcaption className="body-text">Location of the club is circled on the map</figcaption>
                     </figure>
-                    <figure>
-                        <iframe src="https://maps.google.com/maps?q=1033%20Handsworth%20Rd,%20North%20Vancouver&t=&z=13&ie=UTF8&iwloc=&output=embed" alt="location of handsworth"/>
+                    <figure className="relative overflow-hidden w-full pt-[56%]">
+                        <iframe className="absolute top-0 left-0 bottom-0 right-0 w-full h-full"
+                                src="https://maps.google.com/maps?q=1033%20Handsworth%20Rd,%20North%20Vancouver&t=&z=13&ie=UTF8&iwloc=&output=embed" alt="location of handsworth"/>
                         <figcaption className="body-text">Location of Handsworth</figcaption>
                     </figure>
                 </div>
