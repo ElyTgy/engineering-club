@@ -7,7 +7,7 @@ import {SiMicrosoftteams} from 'react-icons/si';
 export default function Footer(props)
 {
     return(
-        <div className={`w-screen h-[100px] p-2 sm:p-10 flex ${!props.className ? "" : props.className}`}>
+        <div className={`sticky w-screen h-[100px] p-2 sm:p-10 flex ${!props.className ? "" : props.className}`}>
             <div className="flex flex-col w-1/2 items-center justify-center subheading-text text-xs md:text-base">
                 <a href="mailto:ytaghavi@yahoo.com">Email Ellie (Leader)</a>
                 <a href="mailto:spencer.gray@shaw.ca">Email Spencer (Leader)</a>
