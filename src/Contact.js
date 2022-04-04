@@ -1,26 +1,9 @@
 import Button1 from "./Components/Button1"
-import {SiPolywork, SiDiscord, SiGithub} from 'react-icons/si';
 import LeaderDesc from "./Components/LeaderDesc";
-import ReactDOM from 'react-dom';
-import {CopyToClipboard} from 'react-copy-to-clipboard';
-import React, {useState} from 'react';
-import Button from "./Components/Button";
-
-//TODO: Add message for five seconds saying sth was copied to clipbord
-//TODO: remove buttons, add gradients to links instead
-//TODO: add validation message after writing in the form
-
-/*                    <CopyToClipboard text={"elytgy#4725"}
-                    onCopy={() => setCopy(true)}>
-                        <a className="link">discord</a>
-                    </CopyToClipboard>,
-
-*/
+import CopyText from "./Components/CopyText";
 
 
 export default function Contact(props){
-    const [copied, setCopy] = useState(false);
-    
     return (
     <div className="bg-white py-20 px-10">
         <div className="max-w-5xl m-auto">
@@ -32,7 +15,7 @@ export default function Contact(props){
             <LeaderDesc name="Ellie Taghavi" role="Leader"
                 buttons={
                     [
-                        <a className="link" textcopy="elytgy#4725">discord</a>,
+                        <CopyText text="discord" copyText="elytgy#4725"/>,
                         <a className="link" href="https://github.com/elytgy" target="_blank">github</a>,
                         <a className="link" href="https://www.polywork.com/elytgy" target="_blank">polywork</a>,
                     ]
@@ -62,4 +45,3 @@ export default function Contact(props){
         </div>
     </div>)
 }
-//action=""
