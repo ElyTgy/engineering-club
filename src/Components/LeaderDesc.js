@@ -1,4 +1,3 @@
-import Button from "./Button"
 export default function LeaderDesc(props){
     return(
         <div className={`mb-10 m-auto ${props.className ? props.className : ""}`}>

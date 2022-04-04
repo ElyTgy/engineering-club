@@ -47,7 +47,7 @@ export default function Countdown(props){
     }
 
     return(
-        <div className={`flex flex-row justify-between w-3/4 my-51 ${props.countdownClass ? props.countdownClass : ""}`}>
+        <div className={`flex flex-row justify-between w-3/4 my-51 md:max-w-3xl ${props.countdownClass ? props.countdownClass : ""}`}>
             <CountdownBox className={props.boxClass ? props.boxClass : ""} number={timeLeft[0]} title="days"/>
             <CountdownBox className={props.boxClass ? props.boxClass : ""} number={timeLeft[1]} title="hours"/>
             <CountdownBox className={props.boxClass ? props.boxClass : ""} number={timeLeft[2]} title="minutes"/>
