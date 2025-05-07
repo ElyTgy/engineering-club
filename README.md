@@ -1,14 +1,12 @@
 ![alt text](./public/poster.png)
 # Description
 
-Handsworth Engineering Club is an engineering club for students of Handsworth Secondary. We are a group of students and builders who love makiing and engineering. New students are always welcome to join the club. You can use this repo to make changes to the website and help us maintain it regularly. We use the website to inform others of the achievements of the club, and to get new members
+Handsworth Engineering Club is an engineering club for students of Handsworth Secondary. We are a group of students and builders who love making. New students are always welcome to join the club. You can use this repo to make changes to the website and help us maintain it regularly. We use the website to inform others of the achievements of the club, and to get new members
 
 Check out our site and feel free to contribute!
-https://hssengineering.ca
 ---
 Join us on Discord
 [Discord](https://discord.gg/NcSTWvrNrE)
-
 
 
 ## How to run the app locally
