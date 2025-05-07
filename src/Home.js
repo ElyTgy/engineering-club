@@ -18,7 +18,7 @@ export default function(props){
                             <span>HSS</span><span className="dynamic-gradient bg-clip-text text-transparent"> Engineering</span><span> Club</span>
                         </h1>
                         <div className="w-full lg:w-11/12 xl:w-3/4 flex flex-col items-center">
-                            <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2022, 3, 8, 11, 40, 0]}/>
+                            <Countdown boxClass="bg-white text-black rounded-md border-black" meetingTime={[2025, 7, 6, 11, 40, 0]}/>
                             <h4 className="text-black title-text text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 md:mt-6 tracking-wide">
                                 until the next meeting on 
                                 <div><span className="text-cyan-600">April 8th, in room 1117 at 11:40am</span></div> 
